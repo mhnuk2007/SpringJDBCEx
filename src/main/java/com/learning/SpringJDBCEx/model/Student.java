@@ -4,18 +4,18 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Student {
-    private int id;
+    private int rollNo;
     private String name;
     private int marks;
 
     //Getters and Setters
 
-    public int getId() {
-        return id;
+    public int getRollNo() {
+        return rollNo;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setRollNo(int rollNo) {
+        this.rollNo = rollNo;
     }
 
     public String getName() {
@@ -38,6 +38,6 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student [id=" + id + ", name=" + name + ", marks=" + marks + "]";
+        return "Student [rollNo=" + rollNo + ", name=" + name + ", marks=" + marks + "]";
     }
 }
